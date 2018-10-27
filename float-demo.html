@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Lesson Four: Float Activity</title>
+	<style>
+  .content-box{
+    float: left;
+  }
+  footer{
+    clear:left;
+    position: relative;
+    margin-top: 15rem;
+    height: 1000px;
+  }
+  header{
+    position:fixed;
+    top: 0;
+    background-color: grey;
+    width: 100%;
+  }
+  .container{
+    overflow: auto;
+  }
+	/*Add CSS style here*/
+	.content-box {
+    		height: 5em;
+    		width: 5em;
+    		padding: 4em;
+    		border: 1em solid;
+    		margin: 1em;
+        float: left;
+	}
+  #border-box{
+    box-sizing: border-box;
+    height: 15rem;
+    overflow: auto;
+  }
+
+	</style>
+  </head>
+  <body>
+	<article>
+
+  	<header>
+    	<h1>Headline</h1>
+  	</header>
+
+  	<section>
+
+    	<h1>A section</h1>
+    	<article class="content-box">
+      	<a href="#link">A Link</a>
+      	<p>A paragraph</p>
+    	</article>
+
+    	<article class="content-box" id="border-box">
+      	<a href="#link">A Link</a>
+      	<p>A paragraphxxxxxxxxxxxxxxxxxxxxxxcfjkal;djkf;akldfj</p>
+    	</article>
+
+    	<article class="content-box">
+      	<a href="#link">A Link</a>
+      	<p>A paragraph</p>
+    	</article>
+
+  	</section>
+
+  	<footer>
+    	<p>This is a footer</p>
+  	</footer>
+
+	</article>
+  </body>
+</html>
