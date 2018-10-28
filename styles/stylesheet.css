@@ -4,6 +4,10 @@
 footer {
   background-color: gray;
   text-align: center;
+  padding-top: 50px;
+  padding-right: 400px;
+  padding-bottom: 50px;
+  padding-left: 400px;
 }
 header {
   background-color: dodgerblue;
@@ -36,15 +40,16 @@ article{
   float: left;
 }
 .container {
-  margin: 0 auto;
+  margin: auto;
   max-width: 1000px;
   padding: 2rem;
 }
 .article1 {
-  width: 700px;
+  width: 600px;
 }
 .articleside {
   width: 300px;
+  float: right;
 }
 
 .clearfix::after {
