@@ -18,7 +18,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey;
 }
 li {
     float: left;
@@ -56,4 +55,16 @@ article{
 content: "";
 display: block;
 clear: both;
+}
+nav{
+  background-color: grey;
+}
+.button{
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-inline-block;
+  font-size: 14px;
+  margin 4px 2px;
 }
